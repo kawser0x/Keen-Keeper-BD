@@ -5,7 +5,7 @@ import { Link } from "react-router";
 
 const Footer = () => {
   return (
-    <div className="bg-green-500">
+    <div className="bg-green-900 text-white">
       <div className="container mx-auto m-4 pt-10 pb-2">
         <div className="justify-center items-center text-center space-y-2">
           <h2 className="text-3xl font-bold">Knee Keeper</h2>
@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="divider"></div>
-        <div className="flex justify-between ">
+        <div className="flex justify-between w-[80%] mx-auto">
           <p className="font-extralight">
             © 2026 KeenKeeper. All rights reserved.
           </p>

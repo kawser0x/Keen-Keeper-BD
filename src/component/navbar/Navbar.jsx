@@ -6,7 +6,7 @@ import { NavLink } from "react-router";
 
 const Navbar = () => {
   return (
-    <div className="navbar shadow-sm">
+    <div className="navbar shadow-sm ">
       <div className="bg-base-100  container mx-auto">
         <div className="navbar-start">
           <a className="btn text-xl">
@@ -15,16 +15,20 @@ const Navbar = () => {
           </a>
         </div>
 
-        <div className="navbar-end gap-2">
-          <NavLink to={"/"} className="flex gap-1 items-center justify-center text-center">
-            <FaHome /> Home
-          </NavLink>
-          <NavLink to={"/aa"} className="flex gap-1 items-center">
-            <RiTimeLine /> TimeLine
-          </NavLink>
-          <NavLink to={"/aajd"} className="flex gap-1 items-center">
-            <BsGraphUpArrow /> Status
-          </NavLink>
+        <div className="navbar-end ">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-2 items-center justify-center text-center">
+            <NavLink
+              to={"/"}
+              className="flex gap-1 items-center justify-center text-center">
+              <FaHome /> Home
+            </NavLink>
+            <NavLink to={"/aa"} className="flex gap-1 items-center justify-center text-center">
+              <RiTimeLine /> TimeLine
+            </NavLink>
+            <NavLink to={"/aajd"} className="flex gap-1 items-center justify-center text-center">
+              <BsGraphUpArrow /> Status
+            </NavLink>
+          </div>
         </div>
       </div>
     </div>
