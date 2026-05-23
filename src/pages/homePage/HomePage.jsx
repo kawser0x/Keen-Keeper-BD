@@ -3,6 +3,7 @@ import Navbar from '../../component/navbar/Navbar';
 import { Outlet } from 'react-router';
 import Footer from '../../component/footer/Footer';
 
+
 const HomePage = () => {
     return (
         <div>
