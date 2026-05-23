@@ -3,6 +3,7 @@ import HomePage from "../pages/homePage/HomePage";
 
 import Home from "../pages/Home";
 import FriendDetails from "../component/friends/FriendDetails";
+import NotFound from "../component/notFound/NotFound";
 
 export const router = createBrowserRouter([
   {
@@ -21,4 +22,8 @@ export const router = createBrowserRouter([
       }
     ],
   },
+  {
+    path: "*", 
+    Component: NotFound
+  }
 ]);
