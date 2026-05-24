@@ -1,7 +1,6 @@
 import React from "react";
 import { AiFillBell } from "react-icons/ai";
-import { IoIosArchive, IoIosVideocam } from "react-icons/io";
-import { MdAddCall, MdOutlineTextsms } from "react-icons/md";
+import { IoIosArchive} from "react-icons/io";
 import { RiDeleteBin5Line } from "react-icons/ri";
 import { useLocation } from "react-router";
 import CheckIn from "../checkIn/CheckIn";
@@ -92,7 +91,7 @@ const FriendDetails = () => {
         <div className="card shadow-sm p-5">
           <h2>Quick Check-In</h2>
           {
-            <CheckIn></CheckIn>
+            <CheckIn friend ={friend} ></CheckIn>
           }
         </div>
       </div>

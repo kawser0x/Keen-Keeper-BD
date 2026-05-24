@@ -20,17 +20,23 @@ const Navbar = () => {
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-2 items-center justify-center text-center">
               <NavLink
                 to={"/"}
-                className="flex gap-1 items-center justify-center text-center">
+                className={({ isActive }) =>
+                  `${"flex gap-1 items-center justify-center text-center"} ${isActive ? "text-green-500 font-bold" : "text-gray-600 hover:text-green-500"}`
+                }>
                 <FaHome /> Home
               </NavLink>
               <NavLink
-                to={"/aa"}
-                className="flex gap-1 items-center justify-center text-center">
+                to={"/timeline"}
+                className={({ isActive }) =>
+                  `${"flex gap-1 items-center justify-center text-center"} ${isActive ? "text-green-500 font-bold" : "text-gray-600 hover:text-green-500"}`
+                }>
                 <RiTimeLine /> TimeLine
               </NavLink>
               <NavLink
                 to={"/aajd"}
-                className="flex gap-1 items-center justify-center text-center">
+                className={({ isActive }) =>
+                  `${"flex gap-1 items-center justify-center text-center"} ${isActive ? "text-green-500 font-bold" : "text-gray-600 hover:text-green-500"}`
+                }>
                 <BsGraphUpArrow /> Status
               </NavLink>
             </div>
