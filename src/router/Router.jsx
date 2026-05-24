@@ -11,12 +11,14 @@ export const router = createBrowserRouter([
   {
     path: "/",
     Component: HomePage,
-
     children: [
       {
         index: true,
         Component: Home,
-        loader: () => fetch("/data.json"),
+        loader: async () => {
+          await new Promise((resolve) => setTimeout(resolve, 0));
+          return fetch("/data.json");
+        },
       },
       {
         path: "/details",

@@ -1,16 +1,28 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# KeenKeeper 🤝
 
-Currently, two official plugins are available:
+KeenKeeper is a React-based web application designed to help you keep track of your interactions with friends. Easily log your calls, texts, and video chats, view your interaction history on a filtered timeline, and visualize your communication habits with interactive charts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+*** Fully Responsive UI Beautifully optimized for all screen sizes—from small mobile devices and tablets to large desktop monitors.
+*** After inter the web page You will connect friend and make call,text and     video call to interact friend .
+*** In this web Automatically captures the exact date and time of every interaction , Filter timeline dynamically type (Call, Text, Video) .
+*** In this web added responsive Recharts Pie Chart  to show  visual feedback
+***  use React-Toastify to show on this notification when a person make (Call, Text, Video) .
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+* **Frontend Framework**: React.js (Vite)
+* **Routing**: React Router (Data API, Loaders, useNavigation)
+* **Styling**: Tailwind CSS & DaisyUI
+* **Icons**: React Icons 
+* **Charts/Data Visualization**: Recharts
+* **Notifications**: React-Toastify
+* **State Management**: React Context API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**
+```bash
+   git clone [https://github.com/kawser0x/Keen-Keeper-BD.git]
+```
+run your local machin .

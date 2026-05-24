@@ -5,8 +5,8 @@ import { Link } from "react-router";
 
 const Footer = () => {
   return (
-    <div className="bg-green-900 text-white">
-      <div className="container mx-auto m-4 pt-10 pb-2">
+    <div className="bg-green-900 text-white mb-0 pb-1">
+      <div className="container mx-auto  pt-10 pb-2">
         <div className="justify-center items-center text-center space-y-2">
           <h2 className="text-3xl font-bold">Knee Keeper</h2>
           <p className="font-light">
