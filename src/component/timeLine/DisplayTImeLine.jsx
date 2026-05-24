@@ -30,7 +30,7 @@ const DisplayTImeLine = ({ frnd }) => {
       <div className="pl-8 m-3">{handleImage(type)}</div>
       <div>
         <h2 className=" text-xl">
-          <span className="font-extrabold text-3xl">{type}</span> With {name}
+          <span className="font-extrabold text-2xl">{type}</span> With {name}
         </h2>
         <p>{formatTime(timestamp)}</p>
       </div>

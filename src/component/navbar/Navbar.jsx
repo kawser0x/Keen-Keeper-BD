@@ -33,7 +33,7 @@ const Navbar = () => {
                 <RiTimeLine /> TimeLine
               </NavLink>
               <NavLink
-                to={"/aajd"}
+                to={"/status"}
                 className={({ isActive }) =>
                   `${"flex gap-1 items-center justify-center text-center"} ${isActive ? "text-green-500 font-bold" : "text-gray-600 hover:text-green-500"}`
                 }>

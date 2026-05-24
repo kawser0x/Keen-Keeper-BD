@@ -5,12 +5,13 @@ import Home from "../pages/Home";
 import FriendDetails from "../component/friends/FriendDetails";
 import NotFound from "../component/notFound/NotFound";
 import TimeLine from "../component/timeLine/TimeLine";
+import Status from "../component/status/Status";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     Component: HomePage,
-    
+
     children: [
       {
         index: true,
@@ -18,17 +19,21 @@ export const router = createBrowserRouter([
         loader: () => fetch("/data.json"),
       },
       {
-        path:"/details",
-        Component: FriendDetails
+        path: "/details",
+        Component: FriendDetails,
       },
       {
-        path:"timeline",
-        Component: TimeLine
-      }
+        path: "/timeline",
+        Component: TimeLine,
+      },
+      {
+        path: "/status",
+        Component: Status,
+      },
     ],
   },
   {
-    path: "*", 
-    Component: NotFound
-  }
+    path: "*",
+    Component: NotFound,
+  },
 ]);
