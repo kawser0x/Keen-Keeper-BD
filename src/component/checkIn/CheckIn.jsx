@@ -19,7 +19,7 @@ const CheckIn = ({ friend }) => {
 
   return (
     <>
-      <div className="flex justify-between gap-3">
+      <div className="flex justify-between gap-3 m-6">
         <div
           onClick={() => handleFriend(friend, "call", <ToastContainer />)}
           className="card bg-gray-200 shadow-sm w-full items-center text-center m-1 p-6 hover:bg-gray-400">
@@ -36,7 +36,7 @@ const CheckIn = ({ friend }) => {
           <IoIosVideocam /> Video
         </div>
       </div>
-      <ToastContainer position="bottom-right" autoClose={2000} />
+      <ToastContainer position="bottom-right" autoClose={1000} />
     </>
   );
 };

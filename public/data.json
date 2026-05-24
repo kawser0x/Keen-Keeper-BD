@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "John Doe",
-    "picture": "../src/assets/kawser.jpg",
+    "picture": "./kawser.jpg",
     "email": "john.doe@example.com",
     "days_since_contact": 16,
     "status": "overdue",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Sarah Smith",
-    "picture": "../src/assets/kawser.jpg",
+    "picture": "./kawser.jpg",
     "email": "sarah.s@example.com",
     "days_since_contact": 28,
     "status": "almost due",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Michael Chang",
-    "picture": "../src/assets/kawser.jpg",
+    "picture": "./kawser.jpg",
     "email": "mchang99@example.com",
     "days_since_contact": 5,
     "status": "on-track",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Emma Wilson",
-    "picture": "../src/assets/kawser.jpg",
+    "picture": "./kawser.jpg",
     "email": "emma.wilson@example.com",
     "days_since_contact": 100,
     "status": "overdue",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "David Rodriguez",
-    "picture": "../src/assets/kawser.jpg",
+    "picture": "./kawser.jpg",
     "email": "d.rod@example.com",
     "days_since_contact": 12,
     "status": "almost due",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Aisha Patel",
-    "picture": "../src/assets/kawser.jpg",
+    "picture": "./kawser.jpg",
     "email": "apatel@example.com",
     "days_since_contact": 2,
     "status": "on-track",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "James Taylor",
-    "picture": "../src/assets/kawser.jpg",
+    "picture": "./kawser.jpg",
     "email": "jtaylor.music@example.com",
     "days_since_contact": 45,
     "status": "overdue",
@@ -85,8 +85,8 @@
   },
   {
     "id": 8,
-    "name": "Linda Chen",
-    "picture": "../src/assets/kawser.jpg",
+    "name": "Luskov lora",
+    "picture": "./kawser.jpg",
     "email": "linda.c@example.com",
     "days_since_contact": 210,
     "status": "on-track",
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "name": "Robert Fox",
-    "picture": "../src/assets/kawser.jpg",
+    "picture": "./kawser.jpg",
     "email": "rfox@example.com",
     "days_since_contact": 88,
     "status": "almost due",
@@ -110,7 +110,7 @@
   {
     "id": 10,
     "name": "Chloe O'Brian",
-    "picture": "../src/assets/kawser.jpg",
+    "picture": "./kawser.jpg",
     "email": "chloe.o@example.com",
     "days_since_contact": 20,
     "status": "overdue",
@@ -122,7 +122,7 @@
   {
     "id": 11,
     "name": "Samir Khalid",
-    "picture": "../src/assets/kawser.jpg",
+    "picture": "./kawser.jpg",
     "email": "skhalid@example.com",
     "days_since_contact": 15,
     "status": "on-track",
@@ -134,7 +134,7 @@
   {
     "id": 12,
     "name": "Olivia Brown",
-    "picture": "../src/assets/kawser.jpg",
+    "picture": "./kawser.jpg",
     "email": "obrown@example.com",
     "days_since_contact": 29,
     "status": "almost due",
@@ -146,7 +146,7 @@
   {
     "id": 13,
     "name": "William Davis",
-    "picture": "../src/assets/kawser.jpg",
+    "picture": "./kawser.jpg",
     "email": "wdavis@example.com",
     "days_since_contact": 8,
     "status": "overdue",
@@ -158,7 +158,7 @@
   {
     "id": 14,
     "name": "Sophia Kim",
-    "picture": "../src/assets/kawser.jpg",
+    "picture": "./kawser.jpg",
     "email": "skim.design@example.com",
     "days_since_contact": 10,
     "status": "on-track",
@@ -170,7 +170,7 @@
   {
     "id": 15,
     "name": "Marcus Johnson",
-    "picture": "../src/assets/kawser.jpg",
+    "picture": "./kawser.jpg",
     "email": "marcus.j@example.com",
     "days_since_contact": 58,
     "status": "almost due",

@@ -15,7 +15,7 @@ const TimeLine = () => {
   });
 
   return (
-    <div className="container mx-auto ">
+    <div className="min-h-[50vh] container mx-auto shadow-sm bg-gray-200  p-10">
       <h2 className="font-bold text-2xl pt-5 pb-3">TimeLine</h2>
       <div>
         <input
@@ -39,7 +39,7 @@ const TimeLine = () => {
             <DisplayTImeLine key={ind} frnd={frnd} />
           ))
         ) : (
-          <p>No interactions found for this filter.</p>
+          <p className="">No interactions found for this filter.</p>
         )}
       </div>
     </div>

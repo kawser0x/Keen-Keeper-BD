@@ -22,7 +22,7 @@ const Status = () => {
   ].filter((item) => item.value > 0);
 
   return (
-    <div className="flex flex-col items-center text-center justify-center p-8 w-full">
+    <div className="flex flex-col items-center text-center justify-center p-8 w-[50%] min-h-[50vh] container mx-auto shadow-sm bg-gray-200 ">
       <h2 className="font-bold text-2xl mb-4">Status</h2>
 
       {data.length === 0 ? (

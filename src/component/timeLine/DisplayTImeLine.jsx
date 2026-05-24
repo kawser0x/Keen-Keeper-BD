@@ -26,7 +26,7 @@ const DisplayTImeLine = ({ frnd }) => {
   };
 
   return (
-    <div className="flex flex-row w-full card shadow-sm items-center gap-4 p-3  m-5 text-center justify-start">
+    <div className="flex flex-row w-full card shadow-sm items-center gap-4 p-3  m-5 text-center justify-start bg-gray-100">
       <div className="pl-8 m-3">{handleImage(type)}</div>
       <div>
         <h2 className=" text-xl">
