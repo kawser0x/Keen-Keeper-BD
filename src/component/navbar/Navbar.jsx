@@ -6,7 +6,7 @@ import { NavLink } from "react-router";
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0 z-50 bg-base-100 pt-0">
+    <div className="sticky top-0 z-10 bg-base-100 pt-0">
       <div className="navbar shadow-sm ">
         <div className="bg-base-100  container mx-auto">
           <div className="navbar-start">
